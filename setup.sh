@@ -13,6 +13,7 @@ sudo n v16
 sudo npm install -g yarn
 
 
+
 # dir
 sudo mkdir -p /data/defi
 sudo chown xdjf /data/defi
@@ -36,6 +37,12 @@ sudo yarn run cli --help
 
 sudo yarn cli wallet-init
 
-# mint 
+# mint quark
 # yarn cli mint-dft quark --satsbyte 90
 ./quark.sh & #loop
+
+# mint quark with check gas
+# python for gas.py
+#sudo apt install python
+#pip3 install requests
+./quark2.sh & 
