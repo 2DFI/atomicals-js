@@ -45,4 +45,4 @@ sudo yarn cli wallet-init
 # python for gas.py
 #sudo apt install python
 #pip3 install requests
-./quark2.sh & 
+./quark2.sh &

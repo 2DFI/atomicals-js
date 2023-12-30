@@ -3,7 +3,7 @@
 while true; do
 
   # Run the Python script and capture the output
-  fee=$(python3 gas.py)
+  fee=$(python gas.py)
   if [[ $fee -lt 110 ]]; then
     echo "Fee is $fee. Let's go!"
     # Run your npm script with the fee
